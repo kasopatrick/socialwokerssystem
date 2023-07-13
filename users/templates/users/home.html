@@ -1,0 +1,22 @@
+{% extends 'users/base.html'%}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <div class="container">
+            <div class="row g-0">
+                <div class="col-sm-6 col-md-8" id="header-text">
+                  <h1 id="header-h1">Chairperson Remarks</h1>
+                   <p id="header-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur, at blanditiis dicta doloribus, eaque expedita explicabo inventore libero magnam minima perferendis repellendus sed, velit veniam veritatis voluptates! Deleniti, natus.</p>
+                  <h1 id="header-h1">Our History</h1>
+                  <p id="header-paragraph">Kenya National Association of Social Workers (KNASW) is the professional body of social workers in Kenya. The body was founded in 1962, thereafter due to its growth, demand and clarity of membership the body was registered with the Registrar of Societies under section 10 of Societies Act on 25th November, 1997.
+The association is a member of the Professional Societies of East Africa and is affiliated to the International Federation of Social Workers (IFSW) and collaborates closely with Commonwealth Organization for Social Workers (COSW).
+Initially, the membership of the association included the entire Kenya social welfare workforce involved in humanitarian work including those in collective, rehabilitative and curative services. In essence this brought together nurses, probation officers, community development workers, counselors, social activists, paralegals and academia. To date most of these groups have evolved as distinct fully fledged professionals’ entities with their own professional bodies which, nevertheless, works very closely with social workers practitioners. Among them is probation officers, Medical technicians, nurses social work pedagogues, academia community development workers, and medical social worker. KNASW is one, among other over 20 national associations in Africa who form IFSW African Region. Other regions are: Asia / Pacific, Europe, Latin America and North America (US& Canada), all the five regions from IFSW global whose headquarters is in Berne, Switzerland.
+In Kenya, KNASW has 8 branches (Central, Eastern, North Eastern, Nairobi, Coast, Nyanza, Western and Rift Valley Branch) the leadership of this branches then form the National Executive Council a.k.a the National office</p>
+                  <a class="btn" style="color: white; background-color: #fd5e14;"type="submit" id="body-link-row">Discover More</a>
+                </div>
+
+                <div class="col-6 col-md-4" id="header-image"><img src="images/in-liquid-slide-2.svg " alt=""></div>
+              </div>
+    </div>
+{% endblock content %}
